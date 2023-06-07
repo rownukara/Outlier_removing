@@ -15,5 +15,7 @@ Enhancing interpretability: Outliers can distort the interpretation of the data 
 Outliers can be removed using various methods, including the Interquartile Range (IQR), Standard Deviation (STD), and Z-score. Here's a brief explanation of each method and how to use them to remove outliers:
 
 1.Interquartile Range (IQR) method: The IQR is a measure of statistical dispersion and is calculated as the difference between the third quartile (Q3) and the first quartile (Q1) of the data. According to this method, any data point outside the range (Q1 - 1.5 * IQR, Q3 + 1.5 * IQR) is considered an outlier and can be removed.
+
 2.Standard Deviation (STD) method: This method uses the mean and standard deviation of the data to identify outliers. Data points that fall outside a certain number of standard deviations from the mean are considered outliers and can be removed. Typically, a threshold of 2 or 3 standard deviations is used.
+
 3.Z-score method: The Z-score measures how many standard deviations an observation is away from the mean. Data points with a Z-score above or below a certain threshold are considered outliers.
